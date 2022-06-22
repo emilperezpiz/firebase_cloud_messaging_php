@@ -1,10 +1,16 @@
 {
     "name": "fcm/firebase_cloud_messaging",
     "license": "MIT",
+    "type": "library",
+    "homepage": "https://github.com/emilperezpiz/firebase_cloud_messaging_php",
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "authors": [
         {
             "name": "Emil Perez Piz",
-            "email": "emilperezpiz@gmail.com"
+            "email": "emilperezpiz@gmail.com",
+            "homepage": "http://amappzing.com.br",
+            "role": "Developer"
         }
     ],
     "autoload": {
