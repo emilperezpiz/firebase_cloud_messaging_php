@@ -5,7 +5,9 @@ This library allows integration with Firebase Cloud Messaging
 - PHP >=7.2
 
 ## Installation
-php composer.phar require fcm/firebase_cloud_messaging 
+php composer.phar require fcm/firebase_cloud_messaging:dev-main 
+or
+composer require fcm/firebase_cloud_messaging:dev-main
 
 ## Code Examples
 
