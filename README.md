@@ -12,6 +12,7 @@ composer require fcm/firebase_cloud_messaging:dev-main
 ## Code Examples
 
 ```php
+use Fcm\PushNotification;
 // Create an instance of the class PushNotification
 $fcm = new PushNotification('tokenServer');
 
