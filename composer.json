@@ -3,7 +3,7 @@
     "license": "MIT",
     "type": "library",
     "homepage": "https://github.com/emilperezpiz/firebase_cloud_messaging_php",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable" : true,
     "authors": [
         {
