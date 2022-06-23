@@ -1,5 +1,5 @@
 {
-    "name": "fcm/firebase_cloud_messaging_php",
+    "name": "fcm/firebasecloudmessagingphp",
     "type": "library",
     "require": {
         "php": ">=7.2",
@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fcm\\FirebaseCloudMessagingPhp\\": "src/Fcm/FirebaseCloudMessagingPhp"
+            "fcm\\firebasecloudmessagingphp\\": "src/Fcm/FirebaseCloudMessagingPhp"
         }
     },
     "authors": [
