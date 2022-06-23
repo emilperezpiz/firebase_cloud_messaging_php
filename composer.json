@@ -1,5 +1,5 @@
 {
-    "name": "fcm/firebasecloudmessagingphp",
+    "name": "fcm/firebase_cloud_messaging_php",
     "type": "library",
     "require": {
         "php": ">=7.2",
@@ -11,13 +11,14 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "fcm\\firebasecloudmessagingphp\\": "src/Fcm/FirebaseCloudMessagingPhp"
+            "Fcm\\Firebase_cloud_messaging\\": "src/Fcm/FirebaseCloudMessagingPhp"
         }
     },
     "authors": [
         {
             "name": "Emil Perez Piz",
-            "email": "emilperezpiz@gmail.com"
+            "email": "emilperezpiz@gmail.com",
+            "role": "dev"
         }
     ],
     "minimum-stability": "dev",
