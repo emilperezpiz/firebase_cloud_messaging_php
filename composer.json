@@ -1,27 +1,25 @@
 {
-    "name": "fcm/firebase_cloud_messaging",
-    "license": "MIT",
+    "name": "fcm/firebase_cloud_messaging_php",
     "type": "library",
-    "homepage": "https://github.com/emilperezpiz/firebase_cloud_messaging_php",
-    "minimum-stability": "dev",
-    "prefer-stable" : true,
+    "require": {
+        "php": "7.2",
+        "guzzlehttp/guzzle": "7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fcm\\FirebaseCloudMessagingPhp\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Emil Perez Piz",
-            "email": "emilperezpiz@gmail.com",
-            "homepage": "http://amappzing.com.br",
-            "role": "Developer"
+            "email": "emilperezpiz@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Fcm\\": "src/"
-        }
-    },
-    "require": {
-        "php": ">=7.2"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "4.0.*"
-    }
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }
