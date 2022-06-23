@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fcm\\FirebaseCloudMessagingPhp\\": "src/"
+            "Fcm\\FirebaseCloudMessagingPhp\\": "src/Fcm/FirebaseCloudMessagingPhp"
         }
     },
     "authors": [
