@@ -1,5 +1,6 @@
 <?php
-namespace Fcm;
+namespace Fcm\FirebaseCloudMessagingPhp\FirebaseCloudMessagingPhp;
+
 
 class PushNotification
 {
